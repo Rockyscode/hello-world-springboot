@@ -3,7 +3,7 @@
 A lightweight Spring Boot application that demonstrates basic REST endpoints and system IP address detection.
 
 ## Prerequisites
-- **Java 17+** (Java 22 detected on this machine)
+- **Java 21+** (JDK 21 LTS)
 - **Maven 3.8+** (Installed in PATH)
 
 ## Project Location

@@ -8,7 +8,7 @@ A production-ready Spring Boot 3 application created on your desktop that expose
 
 - **Project Path:** `C:\Users\om\Desktop\hello-world-springboot`
 - **Build System:** Apache Maven (with included Maven Wrapper `./mvnw`)
-- **Java Version:** Java 22 (`22.0.1`)
+- **Java Version:** Java 21 (JDK 21 LTS)
 - **Framework:** Spring Boot `3.3.4` (Spring Web MVC)
 - **Port:** `8080` (configured in `application.properties`)
 
@@ -63,7 +63,7 @@ C:\Users\om\Desktop\hello-world-springboot\
    - Exposes `GET /hello` returning plain text greeting with optional `?name=` parameter.
 
 5. **[`IpResponse.java`](file:///C:/Users/om/Desktop/hello-world-springboot/src/main/java/com/example/helloworld/dto/IpResponse.java)**
-   - Modern Java 22 record serving as an immutable data transfer object.
+   - Modern Java 21 record serving as an immutable data transfer object.
 
 6. **[`HelloWorldApplicationTests.java`](file:///C:/Users/om/Desktop/hello-world-springboot/src/test/java/com/example/helloworld/HelloWorldApplicationTests.java)**
    - Integration tests using `@SpringBootTest` and `MockMvc` validating the context and endpoints.
